@@ -29,6 +29,7 @@ SET_GROUP(items)
 	["ItemCompass"] call FNC_AddItem;
 	["ItemWatch"] call FNC_AddItem;
 	["ACE_MapTools"] call FNC_AddItem;
+	["ACE_CableTie", 2, "vest"] call FNC_AddItem;
 	["ACRE_PRC343",1,"uniform"] call FNC_AddItem;
 END_GROUP;
 
@@ -64,6 +65,10 @@ SET_GROUP(gl_vest)
  ["rhs_6b23_digi_6sh92_vog_headset","rhs_6b23_digi_6sh92_Vog_Radio_Spetsnaz"] call FNC_AddItemRandom;
 END_GROUP;
 
+case (package + "hostage"): {
+	["UK3CB_CHC_C_U_CAN_01"] call FNC_AddItem;
+	["G_Blindfold_01_black_F"] call FNC_AddItem;
+};
 
 case (package + "SL") : {
 	ADD_GROUP(uniform);
@@ -161,7 +166,7 @@ case (package+ "MEDIC"): {
 	["ACE_elasticBandage",10,"uniform"] call FNC_AddItem;
 	["ACE_quikclot",10,"vest"] call FNC_AddItem;
 	["ACE_epinephrine",10,"vest"] call FNC_AddItem;
-	["ACE_morphine",5,"vest"] call FNC_AddItem;
+	["ACE_morphine",5,"backpack"] call FNC_AddItem;
 
 	["rhs_30Rnd_545x39_7N22_camo_AK",6,"vest"] call FNC_AddItem;
 	["rhs_weap_ak74mr_grip1"] call FNC_AddItem;
@@ -170,7 +175,7 @@ case (package+ "MEDIC"): {
 	_unit addPrimaryWeaponItem "rhs_acc_grip_rk2";
 	["rhs_mag_rgn",1,"vest"] call FNC_AddItem; // Frag Grenadier
 	["rhs_mag_rdg2_white",2,"backpack"] call FNC_AddItem; // White Smoke
-
+ 	["ACE_tourniquet",8,"backpack"] call FNC_AddItem;
 	["ACE_morphine",15,"backpack"] call FNC_AddItem; // Med Supplies
 	["ACE_packingBandage",20,"backpack"] call FNC_AddItem;
 	["ACE_fieldDressing",10,"vest"] call FNC_AddItem;

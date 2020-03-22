@@ -17,5 +17,4 @@ _unit call FNC_RemoveAllGear;
 switch (_type) do {
   #include "loadouts\USRangers.sqf"
   #include "loadouts\2020RUS.sqf"
-  #include "loadouts\hostages.sqf"
 };

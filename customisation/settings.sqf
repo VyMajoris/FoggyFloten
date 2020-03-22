@@ -1,14 +1,15 @@
-//ace_cookoff_enable = false; // This disables cookoff fire effect
-//ace_cookoff_enableAmmoCookoff = false; // This disables secondary explosions
+ace_cookoff_enable = false; // This disables cookoff fire effect
+ace_cookoff_enableAmmoCookoff = false; // This disables secondary explosions
 
 if (isServer) then {
-	setViewDistance 2500; // View distance for the server (the ai's)
+	setViewDistance 1000; // View distance for the server (the ai's)
 
-	FW_TimeLimit = 30; // Time limit in minutes, to disable the time limit set it to 0
+	FW_TimeLimit = 50; // Time limit in minutes, to disable the time limit set it to 0
 	FW_TimeLimitMessage = "TIME LIMIT REACHED!"; //The message displayed when the time runs out
 
 	[blufor, "BLUFOR", "player"] call FNC_AddTeam; // Adds a player team called BLUFOR on side blufor
-	[opfor, "OPFOR", "ai"] call FNC_AddTeam; // Adds a ai team called OPFOR on side opfor
+	[opfor, "OPFOR", "player"] call FNC_AddTeam; // Adds a ai team called OPFOR on side opfor
+	[resistance, "INDFOR", "ai"] call FNC_AddTeam; 
 
 	// [resistance, "INDFOR", "player"] call FNC_AddTeam; // Adds a player team called INFOR on side resistance (aka independent)
 
@@ -39,7 +40,7 @@ if (isServer) then {
 if (!isDedicated) then {
 	FW_DebugMessagesEnabled = true; // Only disable debug messages when the mission is released
 
-	setViewDistance 2500; // View distance for the player
+	setViewDistance 1000; // View distance for the player
 
 	// Call FNC_forceTerrainGrid; // Uncomment this to force high terrain setting. This will prevent faraway objects from appearing as floating. Useful for missions with long sightlines.
 

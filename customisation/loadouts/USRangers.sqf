@@ -11,6 +11,7 @@ SET_GROUP(rifle)
 	["rhs_mag_30Rnd_556x45_M855_PMAG_Tracer_Red",2,"vest"] call FNC_AddItem;
 	["rhs_weap_m4a1_blockII_grip_KAC_wd"] call FNC_AddItem;
 	_unit addPrimaryWeaponItem "rhsusf_acc_eotech_552_wd";
+	_unit addPrimaryWeaponItem "rhsusf_acc_anpeq15side_bk";
 	_unit addPrimaryWeaponItem "rhsusf_acc_grip1";
 END_GROUP;
 
@@ -57,6 +58,11 @@ END_GROUP;
 
 
 
+case (package + "hostage"): {
+	["UK3CB_CHC_C_U_POLITIC_03"] call FNC_AddItem;
+	["G_Blindfold_01_white_F"] call FNC_AddItem;
+	["UK3CB_TKC_H_Turban_03_1"] call FNC_AddItem;
+};
 
 
 case (package + "SL") : {
@@ -129,6 +135,7 @@ case (package + "MEDIC"): {
 	_unit addPrimaryWeaponItem "rhsusf_acc_anpeq15side_bk";
 	_unit addPrimaryWeaponItem "rhsusf_acc_T1_high";
 
+	["ACE_tourniquet",8,"backpack"] call FNC_AddItem;
 	["ACE_morphine",15,"backpack"] call FNC_AddItem; // Med Supplies
 	["ACE_packingBandage",20,"backpack"] call FNC_AddItem;
 	["ACE_fieldDressing",10,"backpack"] call FNC_AddItem;
