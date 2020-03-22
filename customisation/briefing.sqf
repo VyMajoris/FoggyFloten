@@ -134,7 +134,7 @@ switch (side player) do { // Checks what team the player is on
       <font face='RobotoCondensedBold'>• Size:</font><br/>
         21 fully-limbed men.<br/>
       <font face='RobotoCondensedBold'>• Equipment: </font><br/>
-        2x  unarmed Tigrs. <br/>
+        2x  unarmed Tigrs. Blue said it fits 8 dudes counting the driver <br/>  
         Green Chemlights for marking buidlings.<br/>
     ENDTAB;
 
@@ -148,7 +148,7 @@ switch (side player) do { // Checks what team the player is on
       <font face='RobotoCondensedBold'>• Equipment: </font><br/>
       Pimped-out M4s and M249s. MRAPs armed with M240s.<br/>
       <font face='RobotoCondensedBold'>• Uniform:</font><br/>
-      Ranger green uniforms, high-speed helmets.<br/>
+      Ranger green uniforms, high-speed helmets.<br/>           
       <font face='RobotoCondensedBold'>• Disposition:</font><br/>
       They are staging on the west side of the village.
     ENDTAB;
@@ -160,7 +160,7 @@ switch (side player) do { // Checks what team the player is on
 
       <font size='14' > • Secondary Objective: </font>  <br/>
       Rescue Dr. Abdillahi Haglotosiye.
-    ENDTAB;
+    ENDTAB; 
 
     NEWTAB("III. Execution:")
       We must enter the town from the EAST side to prevent conflict with the American forces on the opposite side.<br/>
@@ -198,10 +198,10 @@ switch (side player) do { // Checks what team the player is on
 
 NEWTAB("VI. PID:")
   Dr. Abdillahi Haglotosiye:<br/>
-  <img image='pid\usAsset.jpg' width='400' height='230' /><br/><br/>
+  <img image='pid\us_asset.jpg' width='400' height='230' /><br/><br/>
 
   Mr. Björn Asbjørnsen:<br/>
-  <img image='pid\ruAsset2.jpg' width='370' height='409' />
+  <img image='pid\ru_asset2.jpg' width='370' height='409' />
 
 ENDTAB;
 NEWTAB("VI. Mission notes:") //  This is shown for everyone
@@ -217,6 +217,8 @@ NEWTAB("VI. Mission notes:") //  This is shown for everyone
   • Both hostages rescued by either team.
   <br />  <br />
   Version 1
+  <br />  <br />
+  It might take up to 30 seconds for the ending conditions to trigger.
   <br />  <br />
   Mission by: W-Cephei
   <br />

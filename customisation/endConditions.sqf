@@ -25,7 +25,7 @@ if (_usAssetLocation isEqualTo "usRescueMarker" && {_ruAssetLocation isEqualTo "
         Mr. Björn Asbjørnsen has been rescued by the Russians.
         <br/>
         <br/>
-        Both forces completed their objective.
+        Both forces completed their objective.                                                                                          
         <br/>
         <br/>
         "
@@ -34,7 +34,7 @@ if (_usAssetLocation isEqualTo "usRescueMarker" && {_ruAssetLocation isEqualTo "
     if (_usAssetLocation isEqualTo "usRescueMarker" && {_ruAssetLocation isEqualTo "usRescueMarker"}) then {
         "MISSION COMPLETED
         <br/>
-        <br/>
+        <br/>   
         Dr. Abdillahi Haglotosiye AND Mr. Björn Asbjørnsen were rescued by the Rangers.
         <br/>
         <br/>
@@ -53,15 +53,30 @@ if (_usAssetLocation isEqualTo "usRescueMarker" && {_ruAssetLocation isEqualTo "
         <br/>
         Consider this a demonstration of Russian resolve, stinky burgers.
         <br/>
-        <br/>
+        <br/>                                                                                                                                         
         "
          call FNC_EndMission;
-    };
-};
+    }; 
+    if (_usAssetLocation isEqualTo "ruRescueMarker" && {_ruAssetLocation isEqualTo "usRescueMarker"}) then {
+        "MISSION COMPLETED
+        <br/>
+        <br/>
+        Dr. Abdillahi Haglotosiye has been rescued by the Russians.
+        <br/>
+        Mr. Björn Asbjørnsen has been rescued by the Rangers.
+        <br/>
+        <br/>
+        Both teams tried their best and failed, now it's up for the big dogs in DC and Moscow to sort this mess out...                                                                                          
+        <br/>
+        <br/>
+        "
+        call FNC_EndMission;
+    };                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+};  
 
 if(_bluForCasualty >= 80 && _opForCasualty >= 80) then {
-
-	"MISSION ENDED
+    
+	"MISSION ENDED  
 	<br/>
 	<br/>
 	Both forces suffered extensive casualties and decided to abandon the mission.

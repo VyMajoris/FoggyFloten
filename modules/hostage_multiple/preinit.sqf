@@ -59,7 +59,7 @@ FNC_SetHostageMultiple = {
 				};
 			} forEach _markers;
 			if (_break) exitWith {};
-			sleep 2;
+			sleep 15;
 		};
 
 	};

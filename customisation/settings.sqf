@@ -38,7 +38,7 @@ if (isServer) then {
 };
 
 if (!isDedicated) then {
-	FW_DebugMessagesEnabled = true; // Only disable debug messages when the mission is released
+	FW_DebugMessagesEnabled = false; // Only disable debug messages when the mission is released
 
 	setViewDistance 1000; // View distance for the player
 

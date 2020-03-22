@@ -8,7 +8,7 @@ class EditorData
 	toggles=1025;
 	class ItemIDProvider
 	{
-		nextID=975;
+		nextID=989;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={4710.6733,398.31662,4222.3564};
-		dir[]={0.50733525,-0.40419555,0.76109719};
-		up[]={0.22419567,0.91466451,0.33633557};
-		aside[]={0.83209634,6.1700121e-007,-0.55466169};
+		pos[]={4584.668,566.04773,4527.0625};
+		dir[]={-0.13954398,-0.66867065,-0.73037261};
+		up[]={-0.12548721,0.7435528,-0.65679657};
+		aside[]={-0.98225182,3.8882717e-007,0.1876682};
 	};
 };
 binarizationWanted=0;
@@ -496,7 +496,7 @@ class Mission
 {
 	class Intel
 	{
-		briefingName="COTVT42 Foggy Floten V1";
+		briefingName="COTVT42 Foggy Floten HC V1";
 		overviewText="American and Russian forces rescue some hostages. | HC | 1:1 | V1";
 		resistanceWest=0;
 		startWeather=0.12581593;
@@ -523,7 +523,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=208;
+		items=206;
 		class Item0
 		{
 			dataType="Object";
@@ -20316,787 +20316,6 @@ class Mission
 		};
 		class Item187
 		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=3;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={4381.6011,331.68695,4486.1802};
-						angles[]={0,2.1663375,0};
-					};
-					side="West";
-					flags=7;
-					class Attributes
-					{
-						init="call{[this, ""USRangers_SL""] call FNC_GearScript;" \n "[this, ""ACRE_PRC343"", 4] call FNC_SetRadio;" \n "[this, ""ACRE_PRC148"", 1, ""LEFT""] call FNC_SetRadio;" \n "this allowDamage false;}";
-						description="Immortal Test unit;";
-						isPlayable=1;
-					};
-					id=934;
-					type="B_Soldier_SL_F";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="Male12ENG";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1.01;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={4379.2036,331.67642,4487.2227};
-						angles[]={0,2.1663375,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						init="call{[this, ""USRangers_SL""] call FNC_GearScript;" \n "[this, ""ACRE_PRC343"", 4] call FNC_SetRadio;" \n "[this, ""ACRE_PRC148"", 1, ""LEFT""] call FNC_SetRadio;" \n "this allowDamage false;}";
-						description="Immortal Test unit;";
-						isPlayable=1;
-					};
-					id=936;
-					type="B_Soldier_SL_F";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="Male12ENG";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1.01;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={4385.541,330.91022,4489.4033};
-						angles[]={0,4.8760929,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						init="call{[this, ""USRangers_MEDIC""] call FNC_GearScript;" \n "[this, ""ACRE_PRC343"", 4] call FNC_SetRadio;" \n "this allowDamage false;}";
-						description="Immortal Test unit;";
-						isPlayable=1;
-					};
-					id=938;
-					type="B_Soldier_SL_F";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="Male12ENG";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1.01;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			id=933;
-		};
-		class Item188
-		{
-			dataType="Group";
-			side="East";
-			class Entities
-			{
-				items=3;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={5016.5659,328.01013,4250.6523};
-						angles[]={0,4.0433693,0};
-					};
-					side="East";
-					flags=7;
-					class Attributes
-					{
-						rank="CAPTAIN";
-						init="call{[this, ""2020RUS_SL""] call FNC_GearScript;" \n "[this, ""ACRE_PRC343"", 4] call FNC_SetRadio; " \n "[this, ""ACRE_PRC148"", 1, ""LEFT""] call FNC_SetRadio;" \n "this allowDamage false;}";
-						description="Immortal Test Unit";
-						isPlayable=1;
-						stance="Middle";
-						class Inventory
-						{
-							class primaryWeapon
-							{
-								name="rhs_weap_ak74mr";
-								optics="rhs_acc_1p87";
-								muzzle="rhs_acc_uuk";
-								underBarrel="rhs_acc_grip_rk2";
-								class primaryMuzzleMag
-								{
-									name="rhs_30Rnd_545x39_7N10_camo_AK";
-									ammoLeft=30;
-								};
-							};
-							class uniform
-							{
-								typeName="gorkaEMR";
-								isBackpack=0;
-								class ItemCargo
-								{
-									items=8;
-									class Item0
-									{
-										name="ACRE_PRC148";
-										count=1;
-									};
-									class Item1
-									{
-										name="ACRE_PRC343";
-										count=1;
-									};
-									class Item2
-									{
-										name="ACE_fieldDressing";
-										count=4;
-									};
-									class Item3
-									{
-										name="ACE_elasticBandage";
-										count=4;
-									};
-									class Item4
-									{
-										name="ACE_packingBandage";
-										count=4;
-									};
-									class Item5
-									{
-										name="ACE_quikclot";
-										count=4;
-									};
-									class Item6
-									{
-										name="ACE_morphine";
-										count=1;
-									};
-									class Item7
-									{
-										name="ACE_tourniquet";
-										count=2;
-									};
-								};
-							};
-							class vest
-							{
-								typeName="rhs_6b23_digi_6sh92_Spetsnaz";
-								isBackpack=0;
-								class MagazineCargo
-								{
-									items=5;
-									class Item0
-									{
-										name="rhs_30Rnd_545x39_7N22_camo_AK";
-										count=7;
-										ammoLeft=30;
-									};
-									class Item1
-									{
-										name="rhs_30Rnd_545x39_AK_plum_green";
-										count=2;
-										ammoLeft=30;
-									};
-									class Item2
-									{
-										name="ACE_Chemlight_HiGreen";
-										count=5;
-										ammoLeft=1;
-									};
-									class Item3
-									{
-										name="SmokeShellOrange";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item4
-									{
-										name="SmokeShell";
-										count=1;
-										ammoLeft=1;
-									};
-								};
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-							headgear="rhs_6b27m_digi_ess";
-						};
-					};
-					id=940;
-					type="O_Soldier_F";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="Male01PER";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={5013.2788,328.30566,4251.0015};
-						angles[]={0,1.869457,0};
-					};
-					side="East";
-					flags=5;
-					class Attributes
-					{
-						init="call{[this, ""2020RUS_SL""] call FNC_GearScript;" \n "[this, ""ACRE_PRC343"", 4] call FNC_SetRadio; " \n "[this, ""ACRE_PRC148"", 1, ""LEFT""] call FNC_SetRadio;" \n "[this, ""RED""] call FNC_SetTeamColor;" \n "this allowDamage false;}";
-						description="Immortal test unit";
-						isPlayable=1;
-						stance="Middle";
-						class Inventory
-						{
-							class primaryWeapon
-							{
-								name="rhs_weap_ak74mr";
-								optics="rhs_acc_1p87";
-								muzzle="rhs_acc_uuk";
-								underBarrel="rhs_acc_grip_rk2";
-								class primaryMuzzleMag
-								{
-									name="rhs_30Rnd_545x39_7N10_camo_AK";
-									ammoLeft=30;
-								};
-							};
-							class uniform
-							{
-								typeName="gorkaEMR";
-								isBackpack=0;
-								class ItemCargo
-								{
-									items=8;
-									class Item0
-									{
-										name="ACRE_PRC148";
-										count=1;
-									};
-									class Item1
-									{
-										name="ACRE_PRC343";
-										count=1;
-									};
-									class Item2
-									{
-										name="ACE_fieldDressing";
-										count=4;
-									};
-									class Item3
-									{
-										name="ACE_elasticBandage";
-										count=4;
-									};
-									class Item4
-									{
-										name="ACE_packingBandage";
-										count=4;
-									};
-									class Item5
-									{
-										name="ACE_quikclot";
-										count=4;
-									};
-									class Item6
-									{
-										name="ACE_morphine";
-										count=1;
-									};
-									class Item7
-									{
-										name="ACE_tourniquet";
-										count=2;
-									};
-								};
-							};
-							class vest
-							{
-								typeName="rhs_6b23_digi_6sh92_Spetsnaz";
-								isBackpack=0;
-								class MagazineCargo
-								{
-									items=5;
-									class Item0
-									{
-										name="rhs_30Rnd_545x39_7N22_camo_AK";
-										count=7;
-										ammoLeft=30;
-									};
-									class Item1
-									{
-										name="rhs_30Rnd_545x39_AK_plum_green";
-										count=2;
-										ammoLeft=30;
-									};
-									class Item2
-									{
-										name="ACE_Chemlight_HiGreen";
-										count=5;
-										ammoLeft=1;
-									};
-									class Item3
-									{
-										name="SmokeShellOrange";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item4
-									{
-										name="SmokeShell";
-										count=1;
-										ammoLeft=1;
-									};
-								};
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-							headgear="rhs_6b27m_digi_ess";
-						};
-					};
-					id=941;
-					type="O_Soldier_F";
-					atlOffset=3.0517578e-005;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="Male01PER";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={5014.292,327.93951,4248.1533};
-						angles[]={0,0.028658306,0};
-					};
-					side="East";
-					flags=5;
-					class Attributes
-					{
-						rank="CORPORAL";
-						init="call{[this, ""2020RUS_MEDIC""] call FNC_GearScript;" \n "[this, ""ACRE_PRC343"", 4] call FNC_SetRadio;" \n "this allowDamage false;}";
-						description="Immortal Test Unit";
-						isPlayable=1;
-						stance="Middle";
-						class Inventory
-						{
-							class primaryWeapon
-							{
-								name="rhs_weap_ak74mr";
-								optics="rhs_acc_1p87";
-								muzzle="rhs_acc_uuk";
-								underBarrel="rhs_acc_grip_rk2";
-								class primaryMuzzleMag
-								{
-									name="rhs_30Rnd_545x39_7N10_camo_AK";
-									ammoLeft=30;
-								};
-							};
-							class uniform
-							{
-								typeName="gorkaEMR";
-								isBackpack=0;
-								class ItemCargo
-								{
-									items=8;
-									class Item0
-									{
-										name="ACRE_PRC148";
-										count=1;
-									};
-									class Item1
-									{
-										name="ACRE_PRC343";
-										count=1;
-									};
-									class Item2
-									{
-										name="ACE_fieldDressing";
-										count=4;
-									};
-									class Item3
-									{
-										name="ACE_elasticBandage";
-										count=4;
-									};
-									class Item4
-									{
-										name="ACE_packingBandage";
-										count=4;
-									};
-									class Item5
-									{
-										name="ACE_quikclot";
-										count=4;
-									};
-									class Item6
-									{
-										name="ACE_morphine";
-										count=1;
-									};
-									class Item7
-									{
-										name="ACE_tourniquet";
-										count=2;
-									};
-								};
-							};
-							class vest
-							{
-								typeName="rhs_6b23_digi_6sh92_Spetsnaz";
-								isBackpack=0;
-								class MagazineCargo
-								{
-									items=5;
-									class Item0
-									{
-										name="rhs_30Rnd_545x39_7N22_camo_AK";
-										count=7;
-										ammoLeft=30;
-									};
-									class Item1
-									{
-										name="rhs_30Rnd_545x39_AK_plum_green";
-										count=2;
-										ammoLeft=30;
-									};
-									class Item2
-									{
-										name="ACE_Chemlight_HiGreen";
-										count=5;
-										ammoLeft=1;
-									};
-									class Item3
-									{
-										name="SmokeShellOrange";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item4
-									{
-										name="SmokeShell";
-										count=1;
-										ammoLeft=1;
-									};
-								};
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-							headgear="rhs_6b27m_digi_ess";
-						};
-					};
-					id=942;
-					type="O_Soldier_F";
-					atlOffset=3.0517578e-005;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="ace_isMedic";
-							expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=2;
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="ace_advanced_fatigue_performanceFactor";
-							expression="_this setVariable [""ace_advanced_fatigue_performanceFactor"",_value,true]";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=2;
-								};
-							};
-						};
-						class Attribute2
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="Male01PER";
-								};
-							};
-						};
-						class Attribute3
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=4;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			id=939;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="groupID";
-					expression="[_this, _value] call CBA_fnc_setCallsign";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="test group";
-						};
-					};
-				};
-				nAttributes=1;
-			};
-		};
-		class Item189
-		{
 			dataType="Logic";
 			class PositionInfo
 			{
@@ -21109,7 +20328,7 @@ class Mission
 			id=943;
 			type="HeadlessClient_F";
 		};
-		class Item190
+		class Item188
 		{
 			dataType="Object";
 			class PositionInfo
@@ -21125,7 +20344,7 @@ class Mission
 			id=945;
 			type="Land_DeerStand_01_F";
 		};
-		class Item191
+		class Item189
 		{
 			dataType="Object";
 			class PositionInfo
@@ -21141,7 +20360,7 @@ class Mission
 			id=946;
 			type="Land_DeerStand_01_F";
 		};
-		class Item192
+		class Item190
 		{
 			dataType="Object";
 			class PositionInfo
@@ -21157,7 +20376,7 @@ class Mission
 			type="Land_Misc_deerstand";
 			atlOffset=0.71710205;
 		};
-		class Item193
+		class Item191
 		{
 			dataType="Object";
 			class PositionInfo
@@ -21173,7 +20392,7 @@ class Mission
 			id=949;
 			type="Land_Misc_deerstand";
 		};
-		class Item194
+		class Item192
 		{
 			dataType="Marker";
 			position[]={5316.9829,326.35239,4387.5742};
@@ -21181,7 +20400,7 @@ class Mission
 			type="loc_ViewTower";
 			id=950;
 		};
-		class Item195
+		class Item193
 		{
 			dataType="Marker";
 			position[]={5227.5293,301.25809,4148.6187};
@@ -21189,7 +20408,7 @@ class Mission
 			type="loc_ViewTower";
 			id=951;
 		};
-		class Item196
+		class Item194
 		{
 			dataType="Marker";
 			position[]={4136.2632,372.07971,4294.4438};
@@ -21197,7 +20416,7 @@ class Mission
 			type="loc_ViewTower";
 			id=952;
 		};
-		class Item197
+		class Item195
 		{
 			dataType="Marker";
 			position[]={4209.7373,358.49176,4520.4658};
@@ -21205,7 +20424,7 @@ class Mission
 			type="loc_ViewTower";
 			id=953;
 		};
-		class Item198
+		class Item196
 		{
 			dataType="Group";
 			side="Civilian";
@@ -21218,7 +20437,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={4715.4189,330.60306,4224.8296};
-						angles[]={-0,4.8901539,-0};
+						angles[]={0,4.8901539,0};
 					};
 					side="Civilian";
 					flags=6;
@@ -21316,7 +20535,7 @@ class Mission
 			};
 			id=927;
 		};
-		class Item199
+		class Item197
 		{
 			dataType="Group";
 			side="Civilian";
@@ -21427,7 +20646,7 @@ class Mission
 			};
 			id=962;
 		};
-		class Item200
+		class Item198
 		{
 			dataType="Marker";
 			position[]={4730.7778,339.20499,4335.79};
@@ -21442,7 +20661,7 @@ class Mission
 			id=966;
 			atlOffset=4.5666504;
 		};
-		class Item201
+		class Item199
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -21455,7 +20674,7 @@ class Mission
 			type="Logic";
 			atlOffset=0.73931885;
 		};
-		class Item202
+		class Item200
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -21468,7 +20687,7 @@ class Mission
 			type="Logic";
 			atlOffset=0.73901367;
 		};
-		class Item203
+		class Item201
 		{
 			dataType="Marker";
 			position[]={4885.1157,330.51889,4461.3276};
@@ -21477,7 +20696,7 @@ class Mission
 			type="loc_Stack";
 			id=970;
 		};
-		class Item204
+		class Item202
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -21490,7 +20709,7 @@ class Mission
 			type="Logic";
 			atlOffset=0.73901367;
 		};
-		class Item205
+		class Item203
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -21503,7 +20722,7 @@ class Mission
 			type="Logic";
 			atlOffset=0.73898315;
 		};
-		class Item206
+		class Item204
 		{
 			dataType="Marker";
 			position[]={5626.1592,389.806,4454.9321};
@@ -21517,7 +20736,7 @@ class Mission
 			id=973;
 			atlOffset=-3.1229858;
 		};
-		class Item207
+		class Item205
 		{
 			dataType="Marker";
 			position[]={3867.1321,361.38101,4519.937};
