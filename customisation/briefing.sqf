@@ -220,8 +220,7 @@ NEWTAB("VI. Mission notes:") //  This is shown for everyone
   <br />  <br />
   Mission by: W-Cephei
   <br />
-  Github repo:  <br />
-  link
+  github.com/VyMajoris/FoggyFloten  <br />
 ENDTAB;
 
 NEWTAB("Game Mastering") // This is shown for everyone
