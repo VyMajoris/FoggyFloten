@@ -5,6 +5,8 @@
 #include "customisation\settings.sqf" // DO NOT REMOVE
 #include "core\dia\debug\dia_debug.sqf" // DO NOT REMOVE
 
+setViewDistance 550;
+
 if (isServer) then {
 	"" call FNC_StartingCount; //DO NOT REMOVE
 
