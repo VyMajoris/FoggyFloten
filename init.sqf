@@ -10,6 +10,23 @@ setViewDistance 550;
 if (isServer) then {
 	"" call FNC_StartingCount; //DO NOT REMOVE
 
+
+	if(us_side isEqualTo "north") then {
+		usAsset setPos (north_pos_dir_name select 0);
+		usAsset setDir (north_pos_dir_name select 1);
+
+		ruAsset setPos (south_pos_dir_name select 0); 
+		ruAsset setDir (south_pos_dir_name select 1);
+	}else{
+		usAsset setPos (south_pos_dir_name select 0);
+		usAsset setDir (south_pos_dir_name select 1);
+
+		ruAsset setPos (north_pos_dir_name select 0);
+		ruAsset setDir (north_pos_dir_name select 1);
+	};
+	
+
+
 	[] spawn { // Spawns code running in parallel
 		while {!FW_MissionEnded} do { // Loops while the mission is not ended
 			if (!isNil "FW_Disable_Endconditions") exitWith {};
