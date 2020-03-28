@@ -40,7 +40,8 @@ switch (side player) do { // Checks what team the player is on
       <font face='RobotoCondensedBold'>• Size:</font><br/>
         21 fully-limbed men.<br/>
       <font face='RobotoCondensedBold'>• Equipment: </font><br/>
-        2x MRAPS equiped with M240s. Each can fit 5 people total.<br/>
+        2x MRAPS equiped with M240s. Fits 5 inlcuding the driver.<br/>
+        Each MRAP is loaded with extra ammunition and one M72 LAW.<br/>
         Red Chemlights for marking buidlings.<br/>
         GPNVG-18 and IR-lasers.<br/>
     ENDTAB;
@@ -53,7 +54,7 @@ switch (side player) do { // Checks what team the player is on
       <font face='RobotoCondensedBold'>• Size:</font><br/>
       21 fully-limbed ruskies.<br/>
       <font face='RobotoCondensedBold'>• Equipment: </font><br/>
-      Modern-looking AKs and PKMs. Unarmed Tigrs<br/>
+      Modern-looking AKs, PKMs and a couple of RPG-26s. Unarmed Tigrs<br/>
       <font face='RobotoCondensedBold'>• Uniform:</font><br/>
       EMR(Digital green) gorkas and vests<br/>
       <font face='RobotoCondensedBold'>• Disposition:</font><br/>
@@ -62,11 +63,8 @@ switch (side player) do { // Checks what team the player is on
 
 
     NEWTAB("II. Mission:")
-      <font size='14' > • Main Objective: </font> <br/>
-      Rescue Dr. Abdillahi Haglotosiye at any cost.<br/><br/>
-
-      <font size='14' > • Secondary Objective: </font>  <br/>
-      Rescue Mr. Björn Asbjørnsen.
+      Rescue Dr. Abdillahi Haglotosiye at any cost.<br/>
+      Rescue Mr. Björn Asbjørnsen for international bargaining power.
     ENDTAB;
 
     NEWTAB("III. Execution:")
@@ -134,7 +132,8 @@ switch (side player) do { // Checks what team the player is on
       <font face='RobotoCondensedBold'>• Size:</font><br/>
         21 fully-limbed men.<br/>
       <font face='RobotoCondensedBold'>• Equipment: </font><br/>
-        2x  unarmed Tigrs. Blue said it fits 8 dudes counting the driver <br/>  
+        2x  unarmed Tigrs. Fits 9 including the driver<br/>  
+        Each Tigr is loaded extra ammunition and one RPG-26<br/>  
         Green Chemlights for marking buidlings.<br/>
     ENDTAB;
 
@@ -146,7 +145,7 @@ switch (side player) do { // Checks what team the player is on
       <font face='RobotoCondensedBold'>• Size:</font><br/>
       21 fully-limbed burgers.<br/>
       <font face='RobotoCondensedBold'>• Equipment: </font><br/>
-      Pimped-out M4s and M249s. MRAPs armed with M240s.<br/>
+      Pimped-out M4s, M249s and a couple of M72s. MRAPs armed with M240s.<br/>
       <font face='RobotoCondensedBold'>• Uniform:</font><br/>
       Ranger green uniforms, high-speed helmets.<br/>           
       <font face='RobotoCondensedBold'>• Disposition:</font><br/>
@@ -155,11 +154,8 @@ switch (side player) do { // Checks what team the player is on
 
 
     NEWTAB("II. Mission:")
-      <font size='14' > • Main Objective: </font> <br/>
-      Rescue Mr. Björn Asbjørnsen at any cost.<br/><br/>
-
-      <font size='14' > • Secondary Objective: </font>  <br/>
-      Rescue Dr. Abdillahi Haglotosiye.
+      Rescue Mr. Björn Asbjørnsen at any cost.<br/>
+      Rescue Dr. Abdillahi Haglotosiye for international bargaining power.
     ENDTAB; 
 
     NEWTAB("III. Execution:")
@@ -216,7 +212,7 @@ NEWTAB("VI. Mission notes:") //  This is shown for everyone
   <br />
   • Both hostages rescued by either team.
   <br />  <br />
-  Version 1
+  Version 2
   <br />  <br />
   It might take up to 30 seconds for the ending conditions to trigger.
   <br />  <br />
